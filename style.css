@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    margin: 0 50px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li {
+    margin: 20px 5px;
+}
+nav ul li a{
+    color: gray;
+}
+header{
+    text-align: center;
+}
+.logo{
+    margin: 170px 0 40px 0;
+}
+.g-menu{
+    width: 25px;
+}
+.sign-btn{
+    background-color: #4285F4;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.search-icon{
+    width: 20px;
+    position: absolute;
+   
+    
+}
+.search-icon{
+    top: 24rem;
+    left: 29rem;
+    z-index: 99;
+    opacity: .5;
+}
+.sv-icon{
+    top: 380px;
+    right: 460px;
+    width: 18px;
+    position: absolute;
+}
+.input{
+    position: relative;
+    width: 560px;
+    height: 45px;
+    padding: 0 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 1px #ddd;
+}
+.icon{
+    text-align: center;
+     display: flex;
+     justify-content: center;
+}
+.icon i{
+    font-size: 25px;
+    
+    background-color: #F1F3F4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+     display: grid;
+     place-content: center;
+     margin: 30px 30px 10px 30px;
+    
+}
+
+.fb{
+    color: #4285F4;
+}
+.you{
+    color: red;
+}
+.twi{
+    color: #1D9BF0;
+}
+.in{
+color: #0A66C2;
+}
+.plus{
+    color: #202124;
+}
+
+.span-1{
+    color:#202124;
+    
+}
